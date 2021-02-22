@@ -1,0 +1,118 @@
+/**
+* @name Liscord
+* @author puckzxz#2080/Tay_K#2087
+* @version 69
+* @invite FdZhbjY
+*/
+@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/css/scsl.css);
+
+
+/* Import any custom fonts here */
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+
+:root {
+    /*
+    Change the theme background
+    Default: https://i.imgur.com/j1Z6HVc.jpg
+    */
+    --background-image: url(https://i.imgur.com/c56MeJv.jpg);
+
+    /*
+    Change your friends icon image
+    Default: https://i.imgur.com/63g6Em8.jpg
+    */
+    --friends-icon: url(https://i.imgur.com/XGVNqo1.png);
+
+    /*
+    Change your friends icon iamge position
+    Default: center center
+    */
+    --friends-icon-position: center center;
+
+    /*
+    Change your friends icon image zoom
+    Default: 100% 
+    */
+    --friends-icon-zoom: 70%;
+
+    /*
+    Change the main theme color
+    Default: rgb(67, 181, 129)
+    */
+    --main-color: rgb(138, 4, 237);
+
+    /*
+    Change global transparency
+    You can use this to make your background image lighter or darker
+    Default: rgba(0, 0, 0, 0.8)
+    */
+    --main-transparency: rgba(0, 0, 0, 0.8);
+
+    /*
+    Change the unread server animation.
+    Replace it with "none" in order to remove any animations and use the main color instead
+    Default: rainbow
+    */
+    --unread-server-animation: rainbow;
+
+    /*
+    Change background color when you hover members or friends
+    Default: rgba(255, 255, 255, .15)
+    */
+    --hover-list-bg-color: rgba(138, 4, 237, .15);
+
+    /*
+    Change the color of the borders between messages
+    Default: hsla(0,0%,100%,.1)
+    */
+    --border-lines-color: hsla(0,0%,100%,.1);
+
+    /*
+    Change the scroll bar color
+    Default: rgba(255,255,255, .15)
+    */
+    --scroll-bar-color: rgba(255,255,255, .15);
+
+    /*
+    Change chat messages font size, you can use any unit: px, em, rem, %
+    Default: 16px
+    */
+    --font-size: 16px;
+
+    /*
+    Change the text color of a selected text channel or joined voice channel
+    Default: #f6f6f7
+    */
+    --selected-text-voice-color: #f6f6f7;
+
+    /*
+    Change the text color of a hovered text or voice channel
+    Default: rgba(255, 255, 255, 0.75)
+    */
+    --channel-hover-text-color: rgba(138, 4, 237, 0.75);
+
+
+    /*
+    Change the text color of an unread text channel
+    Default: #dcddde
+    */
+    --unread-text-color: #dcddde;
+
+
+    /*
+    Change the transparency of the user popout when clicking a member
+    Default: rgba(0, 0, 0, 0.8)
+    */
+    --user-popup-background: rgba(0, 0, 0, 0.5);
+
+    --Chat-Font-Used: 'DotGothic16', custom ;
+--Chat-Font-Size: 15.5px;
+}
+:not([class="hljs"]):not(code){
+font-family: var(--Chat-Font-Used)!important;
+}
+
+.markup:not(code) {
+font-size: var(--Chat-Font-Size)!important;
+}
